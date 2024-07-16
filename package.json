@@ -1,0 +1,21 @@
+{
+  "name": "express-solid-principle",
+  "version": "1.0.0",
+  "description": "Belajar menerapkan prinsip SOLID dalam membuat RESTful API menggunakan Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "dev": "node --watch --env-file=.env app.js"
+  },
+  "keywords": [
+    "SOLID principle",
+    "Express js",
+    "node js"
+  ],
+  "author": "Muhammad Rizky",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
